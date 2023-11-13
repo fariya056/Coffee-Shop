@@ -42,6 +42,7 @@ registration
             if(strcmp(username,l.Username)==0&&strcmp(password,l.Password)==0)
             {
                 printf("Login Successful");
+                menu();
             }
             else
             {
