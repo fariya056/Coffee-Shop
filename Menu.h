@@ -63,7 +63,7 @@ void processOrder(struct CoffeeItem menu[], int numItems, int order[], int quant
     printf("Total Cost: $%.2lf\n", totalCost);
 }
 
-int menu() {
+menu() {
     struct CoffeeItem menu[] = {
         {"Espresso", 2.5, 10},
         {"Latte", 3.0, 15},
