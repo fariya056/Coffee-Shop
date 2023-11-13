@@ -3,6 +3,7 @@
 #include<conio.h>
 #include"SplashScreen.h"
 #include"Login"
+#include"Menu.h"
 int main()
 {
 int choose;
